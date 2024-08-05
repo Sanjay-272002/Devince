@@ -1,0 +1,42 @@
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 31%;
+    border-radius: 1px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 4%;
+    margin-bottom: 3%;
+    padding-top: 3%;
+    width: 170px;
+    padding-left: 3%;
+    border: 1px solid grey;
+    border-radius: 6%;
+    cursor:pointer;
+}
+.item :hover{
+    background-color: #ddd; 
+    border-color: #000; 
+    color: #000; 
+}
+
+
+.item-img{
+object-fit: contain;
+width: 100px;
+padding-top: 4%;
+}
+
+ .item-content{
+    height:100px;
+
+ }
+
+.text{
+    
+    align-items: center;
+}
+
+.text p{
+    margin-top: -3%;
+}
