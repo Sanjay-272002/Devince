@@ -14,11 +14,7 @@
     border-radius: 6%;
     cursor:pointer;
 }
-.item :hover{
-    background-color: #ddd; 
-    border-color: #000; 
-    color: #000; 
-}
+
 
 
 .item-img{

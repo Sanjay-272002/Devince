@@ -5,7 +5,7 @@ import banner from './bannerimage/banner.png'
 function Banner() {
   return (
     <div className='banner'>
-         <div className='c1'>
+         {/* <div className='c1'>
             
          <div className='content'> 
            
@@ -13,7 +13,7 @@ function Banner() {
         <p className='p2'>Freelance developer and designer</p>
         <button className='button'>Get in touch</button></div>
         
-         </div> 
+         </div>  */}
     </div>
   )
 }

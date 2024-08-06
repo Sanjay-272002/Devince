@@ -1,12 +1,13 @@
 import React from 'react'
 import './Navbar.css'
+import logo from './logo/logo.png'
 
 function Navbar() {
   return (
     <div className="navbar">
         <div className="logo">
-            <img src="" alt="Logo"/>
-            <p>HustleCoders</p>
+            <img src={logo} alt="Logo"/>
+            <p>DiWego</p>
         </div>
         <ul className="menu">
             <li>Home</li>

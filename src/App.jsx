@@ -22,7 +22,7 @@ function App() {
             
          <div className='content'> 
            
-        <p className='p1'>HustleCoders-Transforming Digital Products</p>
+        <p className='p1'>DIWEGO-Transforming Digital Products</p>
         <p className='p2'>Freelance developer and designer</p>
         <button className='button'>Get in touch</button></div>
         
