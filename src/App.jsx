@@ -8,20 +8,37 @@ import Workflow from './components/Workflow/Workflow.jsx'
 import Contact from './components/Contact/Contact.jsx'
 import Whyus from './components/Whyus/Whyus.jsx'
 import Footer from './components/Footer/Footer.jsx'
-
+import Banner from './components/Banner/Banner.jsx'
+import './App.css'
 function App() {
  
 
   return (
-    <>
-      <Navbar/>
+    <div>
+        <Navbar/>
+    <div className="App">
+         <div className='banner'>
+         <div className='c1'>
+            
+         <div className='content'> 
+           
+        <p className='p1'>HustleCoders-Transforming Digital Products</p>
+        <p className='p2'>Freelance developer and designer</p>
+        <button className='button'>Get in touch</button></div>
+        
+         </div> 
+    </div>
+  
+      
       <About/>
       <Service/>
       <Workflow/>
       <Contact/>
       <Whyus/>
       <Footer/>
-    </>
+      </div>
+   
+    </div>
   )
 }
 

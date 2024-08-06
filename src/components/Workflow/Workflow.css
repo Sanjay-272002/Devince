@@ -1,16 +1,20 @@
 .workflow{
 
     margin-top: 3%;
-    padding-left: 47%;
+
     color: rgb(0, 0, 0);
     font-weight: bold;
     font-size:xx-large;
+    padding-right: 50%;
    
 }
 
 .workflow-main{
     display: flex;
     flex-direction: column;
+    width: 81%;
+    justify-content: center;
+    align-items: center;
   
 }
 .workflow-content{

@@ -4,14 +4,7 @@ import './About.css'
 function About() {
   return (
    <div className="main">
-     <div className='c1'>
-        <div className='content'>
-           
-        <p className='p1'>HustleCoders-Transforming Digital Products</p>
-        <p className='p2'>Freelance developer and designer</p>
-        <button className='button'>Get in touch</button></div>
-        
-        </div>
+    
         <div className="about">
            <h1 className='abouth1'> About</h1>
            <div className='aboutimg'>
