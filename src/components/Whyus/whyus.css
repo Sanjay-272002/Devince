@@ -1,13 +1,13 @@
 .whyus-main{
    
     width:92%;
-    margin-top: -3%;
+   margin-top: 3%;
    
 }
 
 
 .whyus{
-    margin-top: 0%;
+  
     padding-left: 17%;
     color: rgb(0, 0, 0);
     font-weight: bold;
@@ -35,3 +35,27 @@
     font-size: larger;
     text-align:justify;
 }
+@media screen and (max-width: 850px){
+    
+.whyus{
+    padding-left: 2%;
+}
+.whyus-content{
+    margin-left: 13px;
+}
+.description{     
+        line-height: 1.6; 
+        padding: 0 16px; 
+       
+}
+}
+@media screen and (min-width: 1500px) {
+    .whyus{
+  
+        padding-left: 15%;
+       
+    }
+    .description{
+        padding-left: 15%;
+    }
+  }

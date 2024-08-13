@@ -24,31 +24,31 @@ export const workflowContents=[
         id: 3,
         img:uiux,
         title:"UI/UX Wireframe Designs",
-        description:"Definig the color palette,typiography and overall style to align with thembrand and message",
+        description:"Designing user interfaces and experiences using Figma.",
     },
     {
         id: 4,
         img:dev,
         title:"Development",
-        description:"Creating detailed designs with attention to composition,detail and narrative",
+        description:"Building the application with clean and efficient code.",
 
     },
     {
         id: 5,
         img:testing,
         title:"Testing",
-        description:"Refinig the designs,adding texture,shading and refinig line work for a polished finish,"
+        description:"Thoroughly testing the application to ensure it is bug-free."
     },
     {
         id: 6,
         img:host,
         title:"Hosting",
-        description:"Sharing the designs with the client for review,gathering feedback and making revisions as needed",
+        description:"Deploying the application to a production environment",
     },
     {
         id: 7,
         img:maintanance ,
         title:"Maintenance",
-        description:"Applying any final adjustments or additional elements to enhance the desing and ensure it meets the client's expectations",
+        description:"Providing ongoing support and maintenance for the application.",
     }
 ]

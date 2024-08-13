@@ -1,27 +1,29 @@
-import React from 'react'
+import React,{useState} from 'react'
 import './Navbar.css'
 import logo from './logo/logo.png'
-
+import { FiMenu } from "react-icons/fi";
 function Navbar() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
     <div className="navbar">
-        <div className="logo">
-            <img src={logo} alt="Logo"/>
-            <p>DiWego</p>
-        </div>
-        <ul className="menu">
-            <li>Home</li>
-            <li>Services</li>
-            <li>Workflow</li>
-            <li>Team</li>
-            <li>Portfolio</li>
-            <li>Contact</li>
-            </ul>
-                {/* <div className="profile">
-                    <img src="" alt="pic"/>
-                </div> */}
-            
-        
+      <div className="logo">
+        <img src={logo} alt="Logo" />
+        <p>DEVINCE</p>
+      </div>
+      <ul className={`menu ${isMenuOpen ? 'active' : ''}`}>
+        <li>Home</li>
+        <li>Services</li>
+        <li>Workflow</li>
+        <li>Team</li>
+        <li>Portfolio</li>
+        <li>Contact</li>
+      </ul>
+      <FiMenu className="menuicon" onClick={toggleMenu} />
     </div>
   )
 }

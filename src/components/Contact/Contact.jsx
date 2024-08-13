@@ -11,9 +11,9 @@ function Contact() {
     <div className="contact-input">
         
         <div className="c">
-        <input className='name' type="text" placeholder="Name"/><br/><input className="email" type="email" placeholder="Email"/><br/>
-        <input className="message" type="text" placeholder="Message"/><br/>
-        <button className="send-button">Send message</button>
+        <input className="name box" type="text" placeholder="Name"/><br/><input className="email box" type="email" placeholder="Email"/><br/>
+        <input className="message box" type="text" placeholder="Message"/><br/>
+        <button className="send-button box">Send message</button>
         </div>
     </div>
    </div>

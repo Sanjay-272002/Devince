@@ -17,24 +17,13 @@ function App() {
     <div>
         <Navbar/>
     <div className="App">
-         <div className='banner'>
-         <div className='c1'>
-            
-         <div className='content'> 
-           
-        <p className='p1'>DIWEGO-Transforming Digital Products</p>
-        <p className='p2'>Freelance developer and designer</p>
-        <button className='button'>Get in touch</button></div>
-        
-         </div> 
-    </div>
-  
-      
+       <Banner/> 
       <About/>
       <Service/>
       <Workflow/>
-      <Contact/>
       <Whyus/>
+      <Contact/>
+      
       <Footer/>
       </div>
    

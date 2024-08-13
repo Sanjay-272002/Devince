@@ -26,3 +26,15 @@
     cursor: pointer;
     color: rgb(61, 61, 60);
 }
+
+@media screen and (max-width: 850px){
+    .footer-main{
+        flex-wrap: wrap;
+        height: 300px;
+    }
+    .footer-menu{
+        padding-left:0%; 
+        flex-direction: column;
+    }
+
+}

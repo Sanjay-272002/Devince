@@ -69,12 +69,29 @@
     border: 1px solid black;
     
 }
-/* .contact-image{
-    margin-left: -30%;
-    margin-right: auto;
-    margin-top: 4%;
-} */
+
 .c{
     margin-right: 30%;
     margin-top: 4%;
 }
+@media screen and (max-width: 850px){
+    .contact-main{
+        margin-left: -10%;
+    }
+    .box{
+        width: 300px;
+        
+    }
+    .contact{
+        padding-left: 12%; 
+    }
+}
+@media screen and (min-width: 1500px) {
+    .contact{
+        padding-left: 14%;
+    }
+    .contact-input{
+        margin-left: 14%;
+        
+    }
+  }

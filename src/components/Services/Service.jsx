@@ -13,8 +13,6 @@ function Service() {
             Services
         </div>
         <div className="service-content">
-
-      
           {
             serviceContents.map((item,i)=>{
            return(
@@ -25,9 +23,6 @@ function Service() {
 
             }
               </div>
-          
-    
-    
     </div>
   )
 }

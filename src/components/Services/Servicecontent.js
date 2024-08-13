@@ -17,63 +17,63 @@ import debug from './serviceicons/debug.png'
         id:1,
         img:webdev,
         title:"Website development",
-        description:"Beautiful,responsive and user-friendly",
+        description:"Creating responsive and modern websites tailored to your needs.",
     },
     {
         id:2,
         img:appdev,
         title:"App development",
-        description:"Sleek,efficient and crossplatform",
+        description:"Building user-friendly mobile applications for various platforms.",
     },
     {
         id:3,
         img:frontend,
         title:"Frontend development",
-        description:"Intuitive,modern and pixel-perfect"
+        description:"Crafting visually appealing and interactive user interfaces."
     },
     {
         id:4,
         img:backend,
         title:"Backend development",
-        description:"Secure,managed and high-uptime",
+        description:"Developing robust and scalable server-side applications.",
     },
     {
         id:5,
         img:tuning,
         title:"Performance optimization",
-        description:"Fast,optimized and reliable",
+        description:"Enhancing the speed and performance of your applications.",
         
     },
     {
         id:6,
         img:seo,
         title:"SEO optimization",
-        description:"Organic,effective and result-driven",
+        description:"Optimizing your website to rank higher on search engines.",
         
     },
     {
         id:7,
         img:hosting,
         title:"Hosting Website",
-        description:"Fast,robust and scalable",
+        description:"Providing reliable and secure web hosting solutions.",
     },
     {
         id:8,
         img:ui,
         title:"UI/UX Design",
-        description:"Beautiful,responsive and user-friendly",
+        description:"Designing intuitive and engaging user experiences.",
     },
     {
         id:9,
         img:rework,
         title:"Rework on code",
-        description:"Efficient,structured and compilant",
+        description:"Refactoring and optimizing existing code for better performance",
         
     },
     {
         id:10,
         img:debug,
         title:"Debugging issues",
-        description:"Thorough,systematic and solution oriented",
+        description:"Identifying and fixing bugs to ensure smooth functionality.",
     }
  ]

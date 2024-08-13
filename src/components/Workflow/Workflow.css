@@ -1,6 +1,6 @@
 .workflow{
 
-    margin-top: 3%;
+    margin-top: 5%;
 
     color: rgb(0, 0, 0);
     font-weight: bold;
@@ -19,10 +19,27 @@
 }
 .workflow-content{
     display:grid;
-    grid-template-columns: repeat(5, minmax(0, 1fr));
-    margin-top: 2%;
-    width:1000px;
-    margin-left: 14%;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    margin-top: 3%;
+    width:850px;
+    margin-left: 9%;
 
 
 }
+@media screen and (max-width: 850px){
+    .workflow-content{
+        width: 350px; 
+        margin-left: -3%;
+        grid-template-columns: repeat(2, minmax(0, 1fr));;
+    }
+}
+@media screen and (min-width: 1500px) {
+    .workflow{
+        padding-right: 56%;
+
+    }
+    .workflow-content{
+        width: 1250px;
+        grid-template-columns: repeat(6, minmax(0, 1fr));
+    }
+  }
