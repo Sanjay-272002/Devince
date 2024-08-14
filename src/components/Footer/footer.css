@@ -1,40 +1,77 @@
 .footer-main{
-    display: flex;
+    
     justify-content: space-around;
     padding: 16px;
     box-shadow: 0 1px 3px -2px black;
     height: 30px;
     background: linear-gradient(135deg,white,rgba(255, 235, 205, 0.667));
     margin-bottom: 0;
-    height: 100px;
+    height: 115px;
 
 }
 
 
 .footer{
+    display: flex;
     padding-top: 20px;
-    padding-right: 20%;
+    
+    justify-content: center;
+    align-items: center;
+}
+.footer ul li  a{
+    text-decoration: none;
+    color: black;
+}
+.footer-icons{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap:30px;
+    justify-content: center;
+   
+    font-weight:lighter;
+    cursor: pointer;
+    color: rgb(61, 61, 60);
+    margin-top: 0.3%;
+
+
 }
 
 .footer-menu{
     display: flex;
     list-style: none;
-    align-items: center;
+    
+  
     gap:30px;
-    padding-left:42%;
+    align-items: center;
     font-weight:lighter;
+    justify-content: center;
     cursor: pointer;
-    color: rgb(61, 61, 60);
+    color: rgb(0, 0, 0);
+}
+.mail{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+.mail p{
+    padding-left: 1%;
+    margin-top: -0.18%;
 }
 
 @media screen and (max-width: 850px){
     .footer-main{
         flex-wrap: wrap;
-        height: 300px;
+        height: 500px;
     }
     .footer-menu{
         padding-left:0%; 
         flex-direction: column;
+    }
+    .footer-icons{
+        padding-left:0%; 
+        flex-direction: row;
+
     }
 
 }

@@ -87,7 +87,7 @@ function Contact() {
             type="button" 
             onClick={handleSubmit}
           >
-            Send message
+            Get Quote
           </button>
         </div>
       </div>

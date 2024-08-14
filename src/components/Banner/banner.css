@@ -14,18 +14,21 @@
     display: flex;
     flex-wrap: wrap;
     width:860px;
-    background-image: url("https://s3-alpha-sig.figma.com/img/3d0f/a3f3/753b7e1de0995b72dff4c783b651a023?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=SU0nn-lKY8fmV4DDyQRVaj1yIraO~FM5r1kUE8zqGhVe820Ag-D~0ot76GMYnh1jLk5GJ-6yvIwh4b5u9AYDdLBpeg9reWIS504Ctxa29LnG2YZ6lWisld-I0a695hWyUJGuPUFXNYHJvjQZEoiC4USgDCr48dKSKBj-~1IqsFVuGW6uxOf5vE5Nt~icuoK~k2DohJqxpoB3BIjyvyedTQ6DIA17skWdvqvgL12uWp8hh3JZ5huOzoRdl9-v~Qi8kLmMmv49iUiG5f89ypi9hq~XITt-24Z6zd-JcXicyK1c72VTySDwj6gTsEgWOxmxNCUyl-JXhIQqzkDatUWb-Q__");
+    background-image: url("https://media.licdn.com/dms/image/C5612AQHBipBVF5qC4w/article-cover_image-shrink_720_1280/0/1573004862510?e=2147483647&v=beta&t=DBS438qy-Kke98XY0bf4uBhB1Gv7znj4G1rW5hPZ35w");
 }
-.p1{
+    .p1{
   
-    color: rgb(0, 0, 0);
+    color: rgb(246, 255, 0);
     font-size:xx-large;
     font-weight: bolder;
     height: 5%;
     
 }
 .p2{
-    color: rgba(169, 169, 169, 0.821);
+    color: rgba(0, 0, 0, 0.821);
+    font-size: larger;
+    font-weight: bold;
+    margin-top: -2%;
     
     
 }

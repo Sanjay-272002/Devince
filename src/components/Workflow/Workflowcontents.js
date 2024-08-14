@@ -23,32 +23,32 @@ export const workflowContents=[
     {
         id: 3,
         img:uiux,
-        title:"UI/UX Wireframe Designs",
+        title:"UI/UX Wireframe ",
         description:"Designing user interfaces and experiences using Figma.",
     },
     {
         id: 4,
         img:dev,
-        title:"Development",
+        title:" Application Development",
         description:"Building the application with clean and efficient code.",
 
     },
     {
         id: 5,
         img:testing,
-        title:"Testing",
+        title:"Testing Application",
         description:"Thoroughly testing the application to ensure it is bug-free."
     },
     {
         id: 6,
         img:host,
-        title:"Hosting",
+        title:"Hosting websites",
         description:"Deploying the application to a production environment",
     },
     {
         id: 7,
         img:maintanance ,
-        title:"Maintenance",
+        title:"Maintenance and support",
         description:"Providing ongoing support and maintenance for the application.",
     }
 ]

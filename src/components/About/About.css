@@ -5,6 +5,7 @@
         justify-content: center;
         margin-left: 2%;  
         flex-direction: column;   
+        margin-top: 2%;
 }
 .p1{
     padding-top: 15%;
@@ -21,7 +22,7 @@
     
 }
 .about{
-    margin-top: 2%;
+    margin-top: 1%;
     padding-left: 17%;
     display: flex;
          flex-direction: row;
@@ -55,7 +56,7 @@
 }
     
 .aboutcontent p{
-    color: rgb(178, 180, 181);
+    color: rgb(1, 17, 26);
     font-weight:bold;
     font-size:large;
 }
@@ -88,7 +89,7 @@
         padding-left: 13%;
     }    
     .aboutcontent p{
-        color: rgb(178, 180, 181);
+        color: rgb(1, 9, 13);
         font-weight:bold;
         
     }

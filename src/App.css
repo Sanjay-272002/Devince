@@ -1,8 +1,5 @@
-.app{
-    display: flex;
-    align-items: center;
-    justify-content: end;
-}
+
+
 
 .get-quote-button {
     position: fixed;
