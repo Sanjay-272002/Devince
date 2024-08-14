@@ -3,3 +3,82 @@
     align-items: center;
     justify-content: end;
 }
+
+.get-quote-button {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  h2 {
+    text-align: center;
+  }
+  .box1{
+    width:300px ;
+  }
+  .con{
+    margin-left: -5px;
+  }
+  @media (max-width: 768px) {
+    .get-quote-button {
+      bottom: 10px;
+      left: 100px;
+      width: calc(50% - 20px);
+      border-radius: 5px;
+    }
+    .con{
+        margin-left: -12px;
+      }
+     
+  }
+  
+ 
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    
+  }
+  
+
+  .modal-content {
+    background: whitesmoke;
+    border-radius: 8px;
+    padding: 20px;
+    width: 400px;
+    max-height: 80%;
+    /* overflow-y: auto; */
+    position: relative;
+  }
+  
+ 
+  .modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+
+  @media (max-width: 768px) {
+    .modal-content {
+      width: 90%;
+      max-height: 90%;
+    }
+  }
+  

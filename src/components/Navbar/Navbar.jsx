@@ -17,11 +17,11 @@ function Navbar() {
       </div>
       <ul className={`menu ${isMenuOpen ? 'active' : ''}`}>
         <li>Home</li>
-        <li>Services</li>
-        <li>Workflow</li>
+        <li><a href='#servicediv'>Services</a></li>
+        <li><a href='#workflowdiv'>Workflow</a></li>
         <li>Team</li>
         <li>Portfolio</li>
-        <li>Contact</li>
+        <li><a href='#contactdiv'>Contact</a></li>
       </ul>
       <FiMenu className="menuicon" onClick={toggleMenu} />
     </div>

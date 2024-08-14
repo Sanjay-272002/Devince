@@ -8,7 +8,7 @@ import Item from './Item'
 
 function Service() {
   return (
-    <div className='servicvemain'>
+    <div id='servicediv' className='servicvemain'>
         <div className="service">
             Services
         </div>

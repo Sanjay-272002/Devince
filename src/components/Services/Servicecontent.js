@@ -47,7 +47,7 @@ import debug from './serviceicons/debug.png'
     {
         id:6,
         img:seo,
-        title:"SEO optimization",
+        title:"SEO Implementation",
         description:"Optimizing your website to rank higher on search engines.",
         
     },

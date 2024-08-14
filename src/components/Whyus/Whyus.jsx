@@ -4,7 +4,7 @@ import why from './whyusimage/why.png'
 
 function Whyus() {
   return (
-    <div className="whyus-main">
+    <div id="whyusdiv" className="whyus-main">
         <div className="whyus">
             Whyus
         </div>
