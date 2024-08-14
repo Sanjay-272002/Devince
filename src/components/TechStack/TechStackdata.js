@@ -1,11 +1,11 @@
-import react from "./Images/reactlogo.png"
-import reactnative from "./Images/reactlogo.png"
+import react from "./Images/reactogo.png"
+import reactnative from "./Images/reactogo.png"
 import springboot from "./Images/springbootlogo.png" 
 import angular from './Images/angularlogo.png'
 import django from './Images/djangorestlogo.png'
-import node from './Images/nodejslogo.png'
+import node from './Images/nodejslogo.jpeg'
 import nest from  './Images/nestjslogo.png' 
-import express from './Images/expressjslogo.png'
+import express from './Images/expressjslogo.jpeg'
 // import wordpress from "/Images/wordpress.jpg"
 
 

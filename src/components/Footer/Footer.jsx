@@ -1,5 +1,11 @@
 import React from 'react'
 import './footer.css'
+import { FaTwitter } from 'react-icons/fa';
+import { FaInstagram } from 'react-icons/fa';
+import { FaFacebook } from 'react-icons/fa';
+import { FaEnvelope } from 'react-icons/fa';
+
+
 
 function Footer() {
   return (
@@ -7,15 +13,28 @@ function Footer() {
     <div className="footer">
       <ul className='footer-menu'>
         <li>About</li>
-        <li>Services</li>
-        <li>Workflow</li>
+        <li><a href='#servicediv'>Services</a></li>
+        <li><a href='#workflowdiv'>Workflow</a></li>
         <li>Team</li>
         <li>Portfolio</li>
-        <li>Contact</li>
-
+        <li><a href='#contactdiv'></a>Contact</li>
+        
 
       </ul>
+      
     </div>
+    <div className="footer-icons">
+        <li><FaTwitter /></li>
+          <li><FaInstagram /></li>
+          <li><FaFacebook /></li>
+        </div>
+       <div className="mail">
+        <FaEnvelope />
+        <p>contactdevince@gmail.com</p>
+       
+       </div>
+
+    
    </div>
   )
 }

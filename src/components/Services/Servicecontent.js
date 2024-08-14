@@ -54,19 +54,19 @@ import debug from './serviceicons/debug.png'
     {
         id:7,
         img:hosting,
-        title:"Hosting Website",
+        title:"Hosting websites",
         description:"Providing reliable and secure web hosting solutions.",
     },
     {
         id:8,
         img:ui,
-        title:"UI/UX Design",
+        title:"UI/UX Design and support",
         description:"Designing intuitive and engaging user experiences.",
     },
     {
         id:9,
         img:rework,
-        title:"Rework on code",
+        title:"Rework on.. code",
         description:"Refactoring and optimizing existing code for better performance",
         
     },
