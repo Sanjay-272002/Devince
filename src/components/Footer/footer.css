@@ -3,24 +3,18 @@
     justify-content: space-around;
     padding: 16px;
     box-shadow: 0 1px 3px -2px black;
-    height: 30px;
-    background: linear-gradient(135deg,white,rgba(255, 235, 205, 0.667));
+    background-color: #151515;
     margin-bottom: 0;
     height: 115px;
-
 }
-
-
 .footer{
     display: flex;
-    padding-top: 20px;
-    
     justify-content: center;
     align-items: center;
 }
 .footer ul li  a{
     text-decoration: none;
-    color: black;
+        color:#F5F7F8;
 }
 .footer-icons{
     display: flex;
@@ -28,31 +22,27 @@
     align-items: center;
     gap:30px;
     justify-content: center;
-   
     font-weight:lighter;
     cursor: pointer;
-    color: rgb(61, 61, 60);
+    color: #F5F7F8;
     margin-top: 0.3%;
-
-
 }
 
 .footer-menu{
     display: flex;
     list-style: none;
-    
-  
     gap:30px;
     align-items: center;
     font-weight:lighter;
     justify-content: center;
     cursor: pointer;
-    color: rgb(0, 0, 0);
+    color:#F5F7F8;
 }
 .mail{
     display: flex;
     justify-content: center;
     margin-top: 1%;
+    color:#F5F7F8;
 }
 .mail p{
     padding-left: 1%;
@@ -67,11 +57,12 @@
     .footer-menu{
         padding-left:0%; 
         flex-direction: column;
+        
     }
     .footer-icons{
         padding-left:0%; 
         flex-direction: row;
 
     }
-
 }
+

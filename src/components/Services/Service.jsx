@@ -7,10 +7,12 @@ import Item from './Item'
 
 
 function Service() {
+  
   return (
-    <div id='servicediv' className='servicvemain'>
+
+    <div id='servicediv' className='servicemain'>
         <div className="service">
-            Services
+          Services
         </div>
         <div className="service-content">
           {
@@ -20,7 +22,6 @@ function Service() {
 
             )
             })
-
             }
               </div>
     </div>

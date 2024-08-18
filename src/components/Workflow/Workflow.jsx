@@ -5,6 +5,7 @@ import './Workflow.css'
 
 function Workflow() {
   return (
+
     <div id='workflowdiv' className="workflow-main">
         <div className="workflow">
             Workflow
@@ -22,6 +23,7 @@ function Workflow() {
 
         </div>
     </div>
+
   )
 }
 

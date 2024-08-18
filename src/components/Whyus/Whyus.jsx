@@ -4,9 +4,10 @@ import why from './whyusimage/why.png'
 
 function Whyus() {
   return (
+
     <div id="whyusdiv" className="whyus-main">
         <div className="whyus">
-            Whyus
+            Why Us ???
         </div>
         <div className="whyus-content">
             {/* <div className="whyus-image">
@@ -14,13 +15,13 @@ function Whyus() {
             </div> */}
             <div className="description">
                 <p>
-                At Fleibig, we take the time to deeply understand your business and its unique needs. We work closely with you to gather requirements,
-                 strategize, and tailor our approach to align with your goals.
-                 Our commitment to transparent communication and a streamlined process 
+                At <b>Devince</b>, we take the time to deeply understand your business and its unique needs. We work closely with you to gather your requirements,
+                 strategize, and tailor our approach to align with your goals.</p>
+                 <p> Our commitment to transparent communication and a streamlined process 
                  ensures that you stay informed and involved throughout. By combining our industry expertise with your business insights, we deliver
-                  high-quality digital products designed to drive success and exceed expectations. 
+                  high-quality digital products designed to drive success and exceed expectations. </p>
                  
-                  Choose Fleibig for reliable, innovative solutions
+                  <p> Choose <b>Devince</b> for reliable, innovative solutions
                    that are customized to fit your vision and propel your business forward.
                 </p>
             </div>
@@ -28,6 +29,7 @@ function Whyus() {
 
 <br/>
     </div>
+
   )
 }
 

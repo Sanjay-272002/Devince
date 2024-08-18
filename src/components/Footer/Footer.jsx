@@ -1,13 +1,9 @@
-import React from 'react'
+import React,{ useEffect } from 'react'
 import './footer.css'
-import { FaTwitter } from 'react-icons/fa';
-import { FaInstagram } from 'react-icons/fa';
-import { FaFacebook } from 'react-icons/fa';
-import { FaEnvelope } from 'react-icons/fa';
-
-
+import { FaTwitter, FaInstagram, FaFacebook, FaEnvelope } from 'react-icons/fa';
 
 function Footer() {
+  
   return (
    <div className="footer-main">
     <div className="footer">
@@ -18,10 +14,7 @@ function Footer() {
         <li>Team</li>
         <li>Portfolio</li>
         <li><a href='#contactdiv'></a>Contact</li>
-        
-
-      </ul>
-      
+      </ul> 
     </div>
     <div className="footer-icons">
         <li><FaTwitter /></li>
@@ -31,10 +24,7 @@ function Footer() {
        <div className="mail">
         <FaEnvelope />
         <p>contactdevince@gmail.com</p>
-       
        </div>
-
-    
    </div>
   )
 }
