@@ -1,98 +1,99 @@
-.contact-main{
-    background:linear-gradient(rgb(255, 255, 255),rgb(255, 255, 255));
-   height:350px;
-   justify-content: center;
-   margin: auto;
-
- 
-   
-}
-
-.contact{
-
-    margin-top: 3%;
-    align-items: center;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    font-size:xx-large;
-    padding-left: 16%;
-    
-   
-}
-
-.contact-input{
-    
-    display: flex;
-    justify-content: start;
-    margin-left: 19%;
-    align-items: start;
-    margin-top: -2%;
-}
-
-.name{
-    border-radius: 10px;
-    border-color: black;
-    height: 40px;
-    width: 400px;
-    margin-right: 1%;
-    margin-top: 2%;
-    border: 1px solid black;
-}
-
-.email{
-    border-radius: 10px;
-    border-color: black;
-    height: 40px;
-    width: 400px;
-    margin-right: 1%;
-    margin-top: 2%;
-    border: 1px solid black;
-}
-
-.message{
-    border-radius: 10px;
-    border-color: rgb(253, 251, 251);
-    height: 40px;
-    width: 400px;
-    margin-right: 1%;
-    margin-top: 2%;
-    border: 1px solid black;
-}
-
-.send-button{
-    background-color:#146BC2;
-
-    width: 400px;
-    height: 30px;
-    margin-top: 2%;
-    color: rgb(255, 255, 255);
-    border-radius: 10px;
-    border: 1px solid black;
-    
-}
-
-.c{
-    margin-right: 30%;
-    margin-top: 4%;
-}
-@media screen and (max-width: 850px){
-    .contact-main{
-        margin-left: -10%;
-    }
-    .box{
-        width: 300px;
+.contact-main {
+        background: linear-gradient(#D1E9F6, #D1E9F6);
+        height: auto; 
+        justify-content: center;
+        margin: auto;
+        padding-bottom: 2%; 
+        
         
     }
-    .contact{
-        padding-left: 12%; 
+    .contact {
+        margin-top: 3%;
+        align-items: center;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        font-size: xx-large;
+        padding-left: 16%;
+        font-family: 'Poppins', sans-serif;
     }
-}
-@media screen and (min-width: 1500px) {
-    .contact{
-        padding-left: 14%;
-    }
-    .contact-input{
-        margin-left: 14%;
+    .contact-input {
+        display: flex;
+        justify-content: start;
+        margin-left: 19%;
+        align-items: start;
+        margin-top: -2%;
+        flex-direction: column; 
         
     }
-  }
+    
+    .box {
+        border-radius: 5px;
+        border: 1px solid black;
+        height: 40px;
+        width: 400px;
+        margin-top: 2%;
+        margin-bottom: 1.5%;
+        padding: 0 10px; 
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease-in-out; 
+    }
+    
+    .box:hover,
+    .box:focus {
+        box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+        transform: translateY(-2px); 
+        border-color: #7C00FE; 
+    }
+    
+    .send-button {
+        background-color: #146BC2;
+        margin-top: 2%;
+        color: rgb(255, 255, 255);
+        border-radius: 5px;
+        border: 1px solid black;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        font-weight: bold;
+        height: 43px;
+        width: 422px;
+    }
+    
+    .send-button:hover {
+        background-color: #0d5b9c; 
+        box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+        transform: translateY(-2px); 
+    }
+    
+    .c {
+        margin-right: 30%;
+        margin-top: 4%;
+    }
+    
+    @media screen and (max-width: 850px) {
+        .contact-main {
+            margin-left: -10%;
+        }
+    
+        .box {
+            width: 300px;
+        }
+    
+        .send-button {
+            width: 300px;
+        }
+    
+        .contact {
+            padding-left: 12%;
+        }
+    }
+    
+    @media screen and (min-width: 1500px) {
+        .contact {
+            padding-left: 6%;
+        }
+    
+        .contact-input {
+            margin-left: 10%;
+        }
+    }
+    

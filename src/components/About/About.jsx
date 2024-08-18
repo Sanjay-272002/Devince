@@ -4,7 +4,7 @@ import './About.css'
 function About() {
   return (
    <div className="main">
-    <div className='abouth1box'><h1 className='abouth1'> About</h1></div>
+    <div className='abouth1box'><h1 className='abouth1'> About Us</h1></div>
         
         <div className="about">     
        <div className='aboutimg'>
@@ -12,7 +12,10 @@ function About() {
          </div>
         <div className='aboutcontent'>
         <h1>DEVINCE</h1>
-        <p>Freelance devloper and designer based in Chennai.Fleibig connects you with specialized digital services from India through our vibrant team of experienced freelancers. We provide innovative, tailored solutions and out-of-the-box ideas to meet your unique needs and deliver exceptional results.</p>
+        <p>Freelance devloper and designer based in Chennai. 
+           Devince connects you with specialized digital services from India through our vibrant team of experienced freelancers. 
+           We provide innovative, tailored solutions and out-of-the-box ideas to meet your unique needs and deliver exceptional results.
+        </p>
         </div>
         <div></div></div>
        

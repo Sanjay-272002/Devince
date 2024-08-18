@@ -13,7 +13,7 @@ function Navbar() {
     <div className="navbar">
       <div className="logo">
         <img src={logo} alt="Logo" />
-        <p>DEVINCE</p>
+        {/* <p>DEVINCE</p> */}
       </div>
       <ul className={`menu ${isMenuOpen ? 'active' : ''}`}>
         <li>Home</li>

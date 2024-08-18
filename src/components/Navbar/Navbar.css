@@ -1,57 +1,79 @@
 /* Base styles */
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    padding: 16px;
-    box-shadow: 0 1px 3px -2px black;
-    height: 30px;
-    background: linear-gradient(135deg, white, rgb(255, 250, 250));
-    margin-top: -0.5%;
-  }
-  .navbar ul li  a{
-    
-      text-decoration: none;
-      color: black;
-  }
-  .logo {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-  
-  .logo img {
-    height: 100%;
-    width: 100%;
-  }
-  
-  .logo p {
-    color: rgb(0, 0, 0);
-    font-weight: bolder;
-    font-size: larger;
-  }
-  
-  .menu {
-    display: flex;
-    list-style: none;
-    align-items: center;
-    gap: 30px;
-    padding-left: 42%;
-    font-weight: bold;
-    cursor: pointer;
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  box-shadow: 0 1px 3px -2px black;
+  height: 60px;
+  background: linear-gradient(135deg, white, rgb(255, 250, 250));
+  margin-top: -0.5%;
+  background-color: #D1E9F6;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+  position: relative;
+  display: inline-block;
+  transition: transform 0.3s ease, color 0.3s ease;
+  font-size: 16px;
+}
+
+.navbar ul li a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 3px;
+  background: transparent;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.navbar ul li :hover {
+  color: #836FFF; /* Neon color */
+  transform: translateY(-5px);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  height: 110%;
+  width: 110%;
+}
+
+.logo p {
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 30px;
+  padding-left: 42%;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.menuicon {
+  display: none;
+}
+
+/* Mobile styles */
+@media screen and (max-width: 850px) {
   .menuicon {
-    display: none;
-  }
-  
-  /* Mobile styles */
-  @media screen and (max-width: 850px) {
-    .menuicon {
       display: block;
       cursor: pointer;
-    }
-  
-    .menu {
+  }
+
+  .menu {
       display: none;
       position: absolute;
       top: 50px; /* Adjust as needed */
@@ -62,18 +84,17 @@
       padding: 16px;
       margin: 0;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      width: 200px; /* Adjust as needed */
-      z-index: 1000; /* Ensures it appears above other content */
-      transition: opacity 0.3s ease; /* Smooth transition */
-    }
-  
-    .menu.active {
+      width: 200px; 
+      z-index: 1000; 
+      transition: opacity 0.3s ease; 
+  }
+
+  .menu.active {
       display: block;
-    }
-    
-    .menu li {
+  }
+
+  .menu li {
       margin: 10px 0;
       text-align: center;
-    }
   }
-  
+}

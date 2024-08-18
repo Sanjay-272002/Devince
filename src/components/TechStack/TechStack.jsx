@@ -4,6 +4,7 @@ import { techStack } from './TechStackdata'
 
 const TechStack = () => {
   return (
+
     <section className="tech-stack">
       <h2>Tech Stack</h2>
       <div className="tech-stack-grid">
@@ -15,6 +16,7 @@ const TechStack = () => {
         ))}
       </div>
     </section>
+
   );
 };
 
